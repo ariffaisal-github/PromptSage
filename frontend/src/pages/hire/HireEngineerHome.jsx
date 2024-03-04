@@ -25,9 +25,9 @@ function HireEngineerHome() {
   }
 
   return (
-    <div className='bg-slate-900 h-screen'>
+    <div className='bg-slate-900 min-h-screen'>
       <Navbar />
-      <div className='flex flex-col md:flex-row mt-5 pl-2 md:mx-8 lg:mx-16'>
+      <div className='flex flex-col pl-40 md:flex-row mt-5 md:mx-8 lg:mx-16'>
         <div className="md:w-1/2 text-white md:ml-0 mb-8 md:mb-0">
           <h1 className="text-4xl font-bold mb-2">Hire a Prompt Engineer</h1>
           <h1 className="text-3xl font-bold mb-4">For Your Next Project</h1>
