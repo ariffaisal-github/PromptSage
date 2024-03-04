@@ -9,7 +9,7 @@ export default defineConfig({
     proxy:  {
       "/api": {
         // target: "http://localhost:4000",
-        target: "https://delightful-bull-lab-coat.cyclic.app:4000",
+        target: "https://delightful-bull-lab-coat.cyclic.app",
       }
     }
   }
